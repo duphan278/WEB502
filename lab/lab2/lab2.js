@@ -1,4 +1,4 @@
-
+"use strict";
 // Tạo type Product có các trường sau:
 // name: string
 // price: number
@@ -12,7 +12,7 @@
 // Viết hàm hiển thị danh sách sản phẩm: (Tên sản phẩm, giá bán, trạng thái sale,Đánh giá) (Sử dụng forEach)
 // Viết hàm tính tổng giá bán sản phẩm (sử dụng reduce)
 // Viết hàm lọc những sản phẩm đang Sale và đánh giá từ Trung bình trở lên (Sử dụng filter)
-
+Object.defineProperty(exports, "__esModule", { value: true });
 // 1. Tạo enum rate
 var Rate;
 (function (Rate) {
