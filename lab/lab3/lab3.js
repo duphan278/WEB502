@@ -1,4 +1,5 @@
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // --- 1. Hàm tính điểm trung bình (Arrow Function + Return Type) ---
 const tinhDiemTB = (toan, ly, hoa) => {
     return (toan + ly + hoa) / 3;
